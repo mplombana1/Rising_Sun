@@ -28,7 +28,7 @@ window.onload = function(){
         }
 
     };
-    var url = "http://api.openweathermap.org/data/2.5/weather?q=Miami,FL,us&APPID=54094c5e9c3430a7255880a409cc24af";
+    var url = "https://api.openweathermap.org/data/2.5/weather?q=Miami,FL,us&APPID=54094c5e9c3430a7255880a409cc24af";
     request.open('GET', url);
     request.send();
     // http://api.openweathermap.org/data/2.5/weather?q=Miami,FL,us&APPID=54094c5e9c3430a7255880a409cc24af
